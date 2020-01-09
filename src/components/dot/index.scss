@@ -1,0 +1,13 @@
+.dot {
+  position: relative;
+  &:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 6px;
+  }
+}
