@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 150px;
+  margin-left: 20px;
+  // box-shadow: 0 -1px 1px -1px #0000ff,
+  //   //上边线
+  //     1px 0 1px -1px #0000ff,
+  //   //右边线
+  //     0 1px 1px -1px #0000ff,
+  //   //下边线
+  //     -1px 0 1px -1px #0000ff; //左边线
+  box-shadow: 0 0 0 1px #0000ff;
+}

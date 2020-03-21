@@ -1,0 +1,19 @@
+.wrapper {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    // justify-items: stretch;
+    .item {
+      width: 32%;
+      height: 250px;
+      margin-right: 1%;
+      flex-direction: column;
+      background-color: green;
+      align-items: center;
+      // justify-content: space-around;
+      // align-content: center;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.parent1 {
+  display: table;
+  width: 100%;
+  .child {
+    display: table-cell;
+    padding-top: 33.33%;
+    background: black;
+    border-radius: 50%;
+  }
+}
+.parent2 {
+  overflow: hidden;
+  .child {
+    float: left;
+    width: 33.33%;
+    padding-top: 33.33%;
+    border-radius: 50%;
+    background: green;
+  }
+}
+.parent {
+  display: flex;
+  .child {
+    flex: 1;
+    padding-top: 33.33%;
+    border-radius: 50%;
+    background: red;
+  }
+}
